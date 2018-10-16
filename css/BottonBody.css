@@ -1,0 +1,121 @@
+.BottonBody{
+   
+	height: 300px;
+	margin: 0px 50px;
+	
+
+}
+
+.BottonBody a{
+	text-decoration: none;
+}
+
+.BottonBody img{
+	height: 200px;
+	width: 300px;
+}
+
+
+
+.Admission h1{
+	
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	background:black ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.Admission:hover h1{
+	color: black;
+	background-color: #058DFF;
+
+}
+
+.Admission{
+	
+
+	width: 25%;
+	height: 300px;
+	
+	float: left;
+
+
+}
+
+
+.Research{
+	width: 25%;
+	height: 300px;
+	
+	float: left;
+	
+	
+}
+  .Research:hover h1{
+	color: black;
+	background-color: #FF7B05;
+
+  }
+.Research h1{
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	background:black ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.Faculty{
+	width: 25%;
+	height: 300px;
+	
+	float: left;
+	
+	
+}
+.Faculty:hover h1{
+	color: black;
+	background-color: #058DFF;
+
+}
+ .Faculty h1{
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	background: skyblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.Students{
+	width: 25%;
+	height: 300px;
+	
+	float: left;
+	
+	
+}
+.Students:hover h1{
+	color: black;
+	background-color: #FF7B05;
+
+  }
+.Students h1{
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	background:black ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+

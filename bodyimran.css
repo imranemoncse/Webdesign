@@ -1,0 +1,107 @@
+.Events{ width: 100%;
+	height: 300px;
+	
+}
+
+.Events1,.Events2 {
+	width: 48%;
+	height: 300px;
+	background: #FFFFFF;
+	float: left;
+	
+
+}
+.Events1 h1{
+	background-color: #E8DEBB;
+	padding-left: 20%;
+	padding: 20px;
+}
+.News h1{
+	background-color: #E8DEBB;
+	padding-left: 20%;
+	padding: 20px;
+}
+
+
+
+
+
+.Events1 img{
+	height: 40px;
+}
+
+.Events2 img{
+	height: 33px;
+}
+
+.Events a:link {
+	font-size: 20px;
+   
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 0px;
+    margin-left: 50px;
+}
+
+
+
+.Events a:hover,a:active {
+    background-color: #4CA0FF;
+}
+
+
+.News{ width: 48%;
+	height: 300px;
+	background: #white;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.three h2 h3{
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+.four{width: 100%;
+	height: 90px;
+	background: #696868;
+
+}
+
+
+
+
+
+
+
+.five{width: 100%;
+	height: 300px;
+	background: #1A1919;
+
+
+}
+
+
+
+.six{width: 100%;
+	height: 300px;
+	background: #110D0C;
+
+
+}

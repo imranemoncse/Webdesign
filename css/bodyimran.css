@@ -1,0 +1,126 @@
+.Events {
+	margin: 10px 70px;
+	height: 300px;
+	
+}
+
+.Events p{
+	margin:10px 20px;
+	
+	
+}
+.Events1,.Events2 {
+	width: 48%;
+	height: 300px;
+	background: #FFFFFF;
+	float: left;
+	
+
+}
+.Events1 h1,.Events1 h1,.News h1{
+	background-color: #E8DEBB;
+	text-transform: uppercase;
+	color: inherit;
+      color: #fff;
+	padding: 10px;
+	border:2px solid #fff;
+	
+}
+.Events1 button ,.Events2 button ,.News button{
+	background-color: #E8DEBB;
+	border:2px solid #fff;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+
+
+
+.Events button{
+	margin-left: 350px;
+}
+.Events a{
+	text-decoration: none;
+	color: #4270a9;
+	margin-top: -20px;
+}
+.Events1 p a{
+	margin-top: -10px
+}
+.Events1 img{
+	height: 40px;
+
+}
+
+.Events2 img{
+	height: 33px;
+}
+
+
+
+.Events a:hover,a:active {
+    background-color: #4CA0FF;
+}
+
+
+.News{ 
+
+	background: #white;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.three h2 h3{
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+.four{width: 100%;
+	height: 90px;
+	background: #696868;
+	padding-bottom: 100px;
+
+
+}
+.four1 {
+ background-color: skyblue;
+}
+
+
+
+
+
+
+
+.five{width: 100%;
+	height: 300px;
+	background: #1A1919;
+
+
+}
+
+
+
+.six{width: 100%;
+	height: 300px;
+	background: #110D0C;
+
+
+}

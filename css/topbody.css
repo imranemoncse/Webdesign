@@ -1,0 +1,47 @@
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.content{
+	    display: flex;
+        margin-top: 20px;
+        margin-bottom: 25px;
+}
+
+.con-left{
+	width: 20%;
+	height: 300px; 
+	 background-color: #12476B;
+}.con-mid{
+    width: 60%;
+    height: 300px;
+    line-height: 24px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+.con-mid img{
+	    padding-right: 15px;
+    float: left;
+    
+}
+.con-right{
+	width: 20%;
+	height: 300px;
+	background: #12476B; 
+	    padding: 10px;
+	    color: #FFF;
+}
+
+.vertical-menu a {
+	text-align: center;
+    background-color: #12476B;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    height: 37px;
+}
+
+.vertical-menu a:hover {
+    background-color: skyblue;
+}

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>cse.ulab.edu.bd</title>
+<link rel="stylesheet" type="text/css" href="css/imranstyle.css">
+<link rel="stylesheet" type="text/css" href="css/imranheader.css">
+<link rel="stylesheet" type="text/css" href="css/bodyimran.css">
+<link rel="stylesheet" type="text/css" href="css/BottonBody.css">
+<link rel="stylesheet" type="text/css" href="css/topbody.css">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="header">
+  <p style="size: 1px; padding-left:15px; color:white ;height: 10px;" >Department of Computer Science </p>
+  <a href="#default" class="logo">   <img src="https://ulab.edu.bd/wp-content/themes/ulab/images/logo.png" alt="Department of Computer Science & Engineering"  style="max-width: 250%"></a>
+
+
+  <div class="header-right">
+    <a  href="https://urms.ulab.edu.bd/" target="_blank">My URMS</a>
+    <a href="http://moodle.ulab.edu.bd/" target="_blank">ULAB Moodle</a>
+    <a href="https://ulab.edu.bd/login/t">Faculty Log in</a>
+    <input type="text" name="search" id="searchbox"> <button type="w3-button">Search</button> 
+  </div>
+</div>
+
+
+<div class="topnav">
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About Us</a>
+    <div class="dropdown-content">
+      <a href="https://ulab.edu.bd/about-us/academic-council/" target="_blank">Academic Council</a>
+      <a href="https://ulab.edu.bd/about-us/awards-and-achievements/" target="_blank">Awards And Achievements</a>
+      <a href="https://ulab.edu.bd/about-us/board-of-trustees/" target="_blank">Board of Trustees</a>
+      <a href="https://ulab.edu.bd/about-us/book-publications/" target="_blank">Book Publication</a>
+      <a href="https://ulab.edu.bd/about-us/history/" target="_blank">History</a>
+      <a href="https://ulab.edu.bd/about-us/mission-and-values/" target="_blank">Vision, Mission, Values</a>
+      <a href="https://ulab.edu.bd/about-us/syndicate/" target="_blank">Syndicate</a>
+    </div>
+      </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Future Students</a>
+    <div class="dropdown-content">
+      <a href="https://admissions.ulab.edu.bd/admission-requirements/" target="_blank">Admission Requirements</a>
+      <a href="https://admissions.ulab.edu.bd/facilities/" target="_blank">Facilities</a>
+      <a href="https://admissions.ulab.edu.bd/tuition-fees/" target="_blank">Tuition Fees</a>
+      <a href="https://admissions.ulab.edu.bd/scholarships-aid/" target="_blank">Scholarships Aid</a>
+      <a href="https://admissions.ulab.edu.bd/where-graduates-get-jobs/" target="_blank">Where Graduates Gget Jobs</a>
+    </div>
+      </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ACADEMICS</a>
+    <div class="dropdown-content">
+      <a href="https://sse.ulab.edu.bd/" target="_blank">ULAB School of Science and Engineering</a>
+      <a href="https://sah.ulab.edu.bd/" target="_blank">ULAB School of Arts  and Humanities</a>
+      <a href="https://sss.ulab.edu.bd/" target="_blank">School of Social Science</a>
+      <a href="https://usb.ulab.edu.bd/" target="_blank">ULAB School of Business</a>
+    </div>
+      </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">RESEARCH</a>
+    <div class="dropdown-content">
+      <a href="https://ofr.ulab.edu.bd/" target="_blank">Office of Faculty Research</a>
+      <a href="https://pub.ulab.edu.bd/">Publications</a>
+      <a href="https://cls.ulab.edu.bd/" target="_blank">Center for Language Studies (CLS)</a>
+    </div>
+  </li>
+
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ADMINISTRATION</a>
+    <div class="dropdown-content">
+      <a href="https://ulab.edu.bd/administration/vice-chancellors-office/" target="_blank">Vice Chancellor’s Office</a>
+      <a href="https://registrar.ulab.edu.bd/" target="_blank">Registrar’s Office</a>
+      <a href="https://pr.ulab.edu.bd/" target="_blank">Communications Office/Public Relation</a>
+      <a href="https://itd.ulab.edu.bd/" target="_blank">ULAB IT Office</a>
+      <a href="https://ulab.edu.bd/administration/proctors-office/">Proctor’s Office</a>
+    </div>
+  </li>
+  
+</ul>
+</div>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/slider1.jpg" style="width:100% ;height: 300px">
+  <img class="mySlides" src="img/slider2.jpg" style="width:100% ;height: 300px">
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script >
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<div class="content">
+  <div class="con-left">
+<div class="vertical-menu">
+  <a href="Homepage.html" target="_blank">Home</a>
+  <a href="Ged.html" target="_blank">Ged courses</a>
+   <a href="Coursecat.html" target="_blank">Course Catalogue</a>
+  <a href="Major.html" target="_blank">Major Courses</a>
+  <a href="Minor.html" target="_blank">Minor Course</a>
+  <a href="Projectintern.html" target="_blank">Project/Internship</a>
+  <a href="Coursetable.html" target="_blank">4 year Course Distribution</a>
+  <a href="https://sse.ulab.edu.bd/wp-content/uploads/sites/15/2018/04/CSE-Brochure-2018.pdf" target="_blank">Course Brochure</a>
+</div>
+
+  </div>
+  <div class="con-mid">
+
+    <img src="img/depthead.jpg">
+      
+       <p style="font-size: 11px;">  Welcome to the Department of Computer Science and Engineering at ULAB. CSE is an extremely dynamic, fast paced, ever changing field. ULAB CSE will equip you with the skills and tools necessary to be always at the top of your game. Along with these, you will pick up an attitude of continuous self improvement. The curricular teaching is supported and enhanced by constant interaction with the ICT industry.We have extremely qualified faculties with PhDs from all around the world including USA, UK, Australia, Japan and Europe. I am very proud of the fact that our students are in good positions in jobs at both home and abroad. Many of our alumni are also pursuing their postgraduate degrees at well-reputed universities all around the world.As you embark upon your university life, we would like to wish you the very best.Hope to see you at ULAB CSE.
+        </p>
+        <p style="font-size: 13px;">Dr. A.K.M. Muzahidul Islam Head,   Department of Computer Science and Engineering </p>
+     
+                         
+  </div>
+  
+  <div class="con-right">
+    <h2>Notice</h2>
+    <hr>
+    <p style="font-size: 12px;" >  This is to inform all Undergraduate students that the final examination of Spring 2018 term will   start from May 8, 2018.Students are requested to clear their financial dues (if any), before the final examination. If the dues are cleared by 3 May, 2018; Admit Card for the examination will not be required.  
+
+     Thank You
+ </p>
+  
+
+
+  </div>
+  
+  
+</div>
+
+
+<h2 style="text-align: center; margin-bottom: 10px; margin-top: 30px;">4-Year Course Distribution</h2>
+
+
+<div class="tab" style="padding-left: 80px;">
+<table>
+  <tr><th rowspan="5">TERM 1</th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 101</td>
+    <td>Introduction to computer studies</td>
+    <td>3 GED 1</td>
+  </tr>
+  <tr>
+    
+    <td>ENG 101</td>
+    <td>Basic English and learning Skills</td>
+    <td>3 GED 2</td>
+  </tr>
+  <tr>
+    
+    <td>MAT 101</td>
+    <td>Differential and integral calculaus</td>
+    <td>3</td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>9</td>
+  </tr>
+  <tr>
+     <td colspan="4"></td>
+    
+  </tr>
+
+
+
+
+<tr><th rowspan="6">TERM 2 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 103 & CSE 104</td>
+    <td>Structured prgramming & LAB</td>
+    <td>3+1</td>
+  </tr>
+  <tr>
+    
+    <td>ENG 102</td>
+    <td>FUndamentals of English -1</td>
+    <td>3 GED 3</td>
+  </tr>
+  <tr>
+    
+    <td>GED 100</td>
+    <td>Bangladesh Studies</td>
+    <td>3 GED 4</td>
+  </tr>
+
+   <tr>
+    
+    <td>MAT 102</td>
+    <td>CO-ordinate geometry and Linear Algebra</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total caradit</td>
+    <td>13</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+  <tr><th rowspan="6">TERM 3 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 201 & CSE 202</td>
+    <td>Object oriented programming &Lab</td>
+    <td>3+1</td>
+  </tr>
+  <tr>
+    
+    <td>ENG 103</td>
+    <td>FUndamentals of English -2</td>
+    <td>3 GED 5</td>
+  </tr>
+  <tr>
+    
+    <td>GED 101</td>
+    <td>Bangla Basha</td>
+    <td>3 GED 6</td>
+  </tr>
+
+   <tr>
+    
+    <td>phy 101</td>
+    <td>physics 1</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>13</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+
+<tr><th rowspan="6">TERM 4 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 207 & CSE 208</td>
+    <td>Data Structures & LAB</td>
+    <td>3+1</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 205</td>
+    <td>DIscrete Mathematics</td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td>ETE 202 & ETE 203</td>
+    <td>Electronic Device and ciruits -1 & LAB</td>
+    <td>3+1</td>
+  </tr>
+
+   <tr>
+    
+    <td>GED 201</td>
+    <td>World civilization</td>
+    <td>3 GED 7</td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>14</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+<tr><th rowspan="6">TERM 5 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td> CSE 305 & CSE 306</td>
+    <td>Algorithm & LAB</td>
+    <td>3+1</td>
+  </tr>
+
+  <td>ETE 204 & ETE 205</td>
+    <td>Digital Electronic & LAb</td>
+    <td>3+1 </td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>GED Elective 1</td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td>MAT 201</td>
+    <td>Differential Equation and Numerical Analysis</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    
+    
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>14</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+<tr><th rowspan="6">TERM 6 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 303</td>
+    <td>Database Management System</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 412 & CSE 413</td>
+    <td>Programming with java & LAB</td>
+    <td>3 GED 3</td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>GED Elective 2</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    
+    <td>MAT 293</td>
+    <td>Mathematical Methods</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>13</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+<tr><th rowspan="6">TERM 7 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 203</td>
+    <td>Computer Organization and Architecture </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 417</td>
+    <td>Automata and Theory of Compution</td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>GED Elective 3</td>
+    <td>3</td>
+  </tr>
+
+   <tr>
+    
+    <td>STA 206</td>
+    <td>Statistics and probability</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>12</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+<tr><th rowspan="6">TERM 8 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 204</td>
+    <td>Operating System</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 309</td>
+    <td>Data Communication and computer Networks</td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>Major Elective 1</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    
+    <td> </td>
+    <td>Optional/Minor 1</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>12</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+<tr><th rowspan="6">TERM 9 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 307</td>
+    <td>Microprocessor and interfacing </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 401</td>
+    <td>System Analysis and Design </td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>Optional/Minor 2</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    
+    <td></td>
+    <td>Major Elective 2</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>12</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+<tr><th rowspan="6">TERM 10 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 404</td>
+    <td>Software Engineering</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 410</td>
+    <td>Artificial Intelligence</td>
+    <td>3 </td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    <td>Optional/Minor 3</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    
+    <td></td>
+    <td>Optional / Minor 4</td>
+    <td>3 </td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>12</td>
+  </tr>
+  <tr>
+     <td colspan="5"></td>
+    
+  </tr>
+
+
+
+
+
+<tr><th rowspan="5"> TERM 11</th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td>CSE 480</td>
+    <td>Web Technology </td>
+    <td>3</td>
+  </tr>
+ 
+    
+    <td></td>
+    <td>Optional / Minor 4</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>Optional  /Minor 5</td>
+    <td>3</td>
+  </tr>
+
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>9</td>
+  </tr>
+  <tr>
+     <td colspan="4"></td>
+    
+  </tr>
+    
+     <tr><th rowspan="4">TERM 12 </th>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Credits & Course Type</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Major Elective 4</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    
+    <td>CSE 499</td>
+    <td>Project/Internship/Thesis</td>
+    <td>3</td>
+  </tr>
+ 
+   <tr>
+    <td> </td>
+    <td>Total credits</td>
+    <td>7</td>
+  </tr>
+  <tr>
+     <td colspan="3"></td>
+    
+  </tr>
+
+
+  
+</table>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="four">
+  <div class="four1">
+     <a href="#default" class="logo">   <img style="margin-left: 80px;  margin-bottom: 10px;" src="https://ulab.edu.bd/wp-content/themes/ulab/images/logo.png" alt="Department of Computer Science & Engineering"  style="max-width: 250%"></a>
+  </div>
+  <div class="four2"></div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div style="width: 100%; height: 200px; background-color: #12476B">
+<p style="margin-left: 50px; padding-top: 30px; ">
+UNIVERSITY OF LIBERAL ARTS BANGLADESHbr</br>
+  Addressbr <br>
+House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh<br>
+
+Mobile: 01730-082197, 01713-091936, 01714-161613. <br>
+Phone: 966-1255 Fax: +88-02-9660610<br>
+  
+</p>
+
+</div>
+
+
+
+</body>
+</html>
